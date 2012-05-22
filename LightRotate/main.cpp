@@ -43,7 +43,7 @@ void init(void) {
 
 }
 void spinDisplay() {
-	spin = spin + 2.0;
+	spin = spin + 3.0;
 		if (spin > 360.0) {
 			spin = spin - 360;
 		}
@@ -112,7 +112,7 @@ int main(int argc, char** argv) {
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
 	glutInitWindowSize(800, 600);
 	glutInitWindowPosition(300, 100);
-	glutCreateWindow("Pencahayaan Objek 3D");
+	glutCreateWindow("Tugas Pencahayaan Objek 3D");
 	init();
 	glutDisplayFunc(display);
 	glutReshapeFunc(reshape);
